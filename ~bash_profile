@@ -12,3 +12,5 @@ eval $(/usr/local/bin/gdircolors ~/Setting/solarized/dircolors-solarized-master/
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
+
+alias R="$(/usr/bin/which R) --no-save"

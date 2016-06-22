@@ -1,0 +1,6 @@
+
+#CRANの指定
+options(repos="https://cran.ism.ac.jp/")
+
+#履歴の保存
+.Last = function() { if (interactive()) try(savehistory()) }
