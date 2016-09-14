@@ -1,3 +1,4 @@
+#!/bin/sh
 #default setting
 
 # http://blancbooth.com/archives/62
