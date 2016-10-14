@@ -2,6 +2,9 @@
 # 環境変数の設定
 export PATH=/usr/local/bin:$PATH
 export PATH="$HOME/.pyenv/shims:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 
 alias ls='/usr/local/bin/gls --color=auto'
 
@@ -11,3 +14,4 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
 fi
 
 alias R="$(/usr/bin/which R) --no-save"
+alias r="$(/usr/bin/which R) --no-save"
